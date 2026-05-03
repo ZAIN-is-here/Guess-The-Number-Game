@@ -1,6 +1,6 @@
 # Guess The Number Game
 
-A simple Guess The Number Game made with Html, Css, Javascript.
+A Simple Guess The Number Game made with Html, Css, Javascript.
 
 ## Features
 - random number from 1 to 100
