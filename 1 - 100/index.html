@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number Game</title>
+
+    <!-- Css Linked -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon Linked -->
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- heading -->
+    <h1 id="heading">Guess The Number</h1>
+
+    <!-- Game -->
+    <div id="game">
+        <h3 id="myh3">Number 1 - 100</h3>
+
+        <h3 id="wins">Wins: 0</h3>
+        <button id="resetwins" onclick="resetwins()">Reset Wins</button>
+
+        <form>
+            <input type="number" id="number" name="number" placeholder="Guess The Number" max="100" min="1" value="1">
+            <br><br>
+        </form>
+        <button type="submit" id="submit" onclick="logic()">Submit</button>
+        <a href="index.html"></a>
+        <br><br>
+        <button id="reload" onclick="reload()">Reload Game</button>
+    </div>
+
+    <h1 id="result"></h1>
+
+    <!-- Js Linked -->
+    <script src="script.js"></script>
+</body>
+
+</html>

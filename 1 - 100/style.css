@@ -1,0 +1,155 @@
+/* Body */
+body {
+    background: linear-gradient(to right, gainsboro, white);
+}
+
+/* Transition */
+* {
+    transition: 0.25s ease;
+    box-sizing: border-box;
+}
+
+/* Heading */
+#heading {
+    color: red;
+    font-size: 4em;
+    text-align: center;
+}
+
+#heading:hover {
+    scale: 1.06;
+}
+
+/* Game Background */
+#game {
+    text-align: center;
+    justify-content: center;
+    background: rgb(115, 221, 203);
+    height: 500px;
+}
+
+/* Game heading */
+#myh3 {
+    color: darkred;
+    font-size: 3em;
+    text-align: center;
+}
+
+#myh3:hover {
+    scale: 1.06;
+}
+
+/* Wins */
+#wins {
+    color: green;
+    font-size: 40px;
+}
+
+#wins:hover {
+    scale: 1.08;
+}
+
+/* Reset Wins */
+#resetwins {
+    color: red;
+    background-color: white;
+    font-size: 30px;
+    margin-top: -11px;
+    border-radius: 6px;
+}
+
+/* Number Input */
+#number {
+    font-size: 4em;
+    color: white;
+    background-color: black;
+    width: 700px;
+    margin-top: 10px;
+}
+
+#number:active {
+    scale: 0.95;
+}
+
+#number:focus {
+    box-shadow: 0px 0px 50px white;
+}
+
+/* Button */
+#submit {
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+}
+
+#submit:hover {
+    scale: 1.08;
+}
+
+#submit:active {
+    scale: 0.95;
+}
+
+/* Result */
+#result {
+    color: darkred;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Reload BTN */
+#reload {
+    color: white;
+    background-color: black;
+    font-size: 40px;
+}
+
+#reload:hover {
+    scale: 1.08;
+}
+
+#reload:active {
+    scale: 0.95;
+}
+
+#reload:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Mobile UI */
+@media (max-width: 600px) {
+    #heading {
+        font-size: 40px;
+    }
+
+    #game {
+        height: 340px;
+    }
+
+    #myh3 {
+        font-size: 30px;
+    }
+
+    #resetwins {
+        font-size: 17px;
+    }
+
+    #number {
+        font-size: 30px;
+        width: 300px;
+    }
+
+    #submit {
+        font-size: 30px;
+    }
+
+    #reload {
+        font-size: 20px;
+    }
+
+    #result {
+        font-size: 30px;
+    }
+}
